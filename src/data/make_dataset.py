@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
 # create the over sampled dataset to help deal with the imbalanced nature of the data
 from imblearn.over_sampling import SMOTE
+
 
 def create_dataset():
     data = pd.read_csv("c:\\Users\\markm\\Desktop\\CAPSTONE\\capstone\\data\\external\\watson_healthcare_modified.csv")
@@ -26,7 +26,7 @@ def create_dataset():
     oversample = SMOTE()
     x_bal_train, y_bal_train = oversample.fit_resample(x_train, y_train)
 
-    return x, y
+    return x_bal_train, y_bal_train, x_test, y_test
 
 
 ### Script for encoding dummy variables
