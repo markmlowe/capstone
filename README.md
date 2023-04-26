@@ -26,7 +26,6 @@ Project Organization
     │
     ├── docs               <- Contains AI/ML Bias-Fairness report
     │
-    │
     ├── notebooks          <- `01_mml_initial_data_exploration.ipynb` Contains EDA for Project.
     │
     ├── reports            <- PDF Summary of Project.
