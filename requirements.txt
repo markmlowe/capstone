@@ -11,7 +11,7 @@ python-dotenv>=0.5.1
 
 # modeling requirements
 pandas
-numpy==1.21.0
+numpy
 tensorflow
 scikit-learn
 matplotlib

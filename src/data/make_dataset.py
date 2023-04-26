@@ -26,7 +26,7 @@ def create_dataset():
     oversample = SMOTE()
     x_bal_train, y_bal_train = oversample.fit_resample(x_train, y_train)
 
-    return x_bal_train, y_bal_train, x_test, y_test
+    return x_bal_train, y_bal_train, x_train, y_train, x_test, y_test
 
 
 ### Script for encoding dummy variables
