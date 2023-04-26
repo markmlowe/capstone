@@ -5,7 +5,7 @@ CLASS: DATA 4950
 
 AUTHOR: Mark M.Lowe
 
-Overview
+# Overview
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 - This repository contains a Logistic Regression model & an XGBoost Classifier model to predict a nurse's probability of attriting. 
 
@@ -16,7 +16,7 @@ Overview
 - Also, please read the summary (titled Nurse_Attrition_Project_Summary.pdf) located in the 'reports' folder
 
 
-Project Organization
+# Project Organization
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
     ├── LICENSE
@@ -48,7 +48,7 @@ Project Organization
     │       └── visualize.py
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-How-To
+# How-To
 - Create virtual environment to install all dependencies : FOR HELP - https://realpython.com/python-virtual-environments-a-primer/
 
 - Active the virtual environment and run 'pip install -r requirements.txt' in the terminal
@@ -60,7 +60,7 @@ How-To
         - To continue the run from logistic regression to xgboost, the dev will need to exit out of the log_r pop-up graphic, allowing the script to run the xgboost model.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-Contact Info:
+# Contact Info:
 
 - For any questions, please reach out to mml4w@mtmail.mtsu.edu 
 
